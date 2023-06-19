@@ -1,0 +1,53 @@
+/*
+ * JavaWebScottAdmin Lesson
+ *
+ * CSSファイル
+ *
+ * ファイル名=main.css
+ * ディレクトリ=/javawebscottadmin/css
+ */
+
+@charset "utf-8";
+
+table {
+	border-collapse: collapse;
+}
+table th {
+	border: solid 1px black;
+}
+table td {
+	border: solid 1px black;
+}
+nav ul li {
+	display: inline;
+	list-style-type: none;
+}
+nav {
+	margin-left: 0px;
+}
+nav ul {
+	padding-left: 0px;
+}
+nav ul .current {
+	color: red;
+}
+nav ul li:before {
+	content: " > ";
+}
+nav ul li:first-child:before {
+	content: none;
+}
+.submit {
+	text-align:center;
+}
+.required {
+	color: red;
+	font-size: 12px;
+}
+#errorMsg{
+	border: solid 1px orange;
+	color: red;
+	padding: 10px;
+	margin: 20px;
+	width: 400px;
+}

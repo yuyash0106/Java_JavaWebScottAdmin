@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/javawebscottadmin</rootDir>
+    <workDir>work</workDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo>%3CResource%0D%0Aname%3D%22javawebdb%22%0D%0Aauth%3D%22Container%22%0D%0Atype%3D%22javax.sql.DataSource%22%0D%0AdriverClassName%3D%22com.mysql.jdbc.Driver%22%0D%0Aurl%3D%22jdbc%3Amysql%3A%2F%2Flocalhost%2Fjavawebdb%3FuseUnicode%3Dtrue%26amp%3BcharacterEncoding%3Dutf8%22%0D%0Ausername%3D%22scott%22%0D%0Apassword%3D%22tiger%22%2F%3E</extraInfo>
+    <mavenClasspath>false</mavenClasspath>
+    <webPath>/javawebscottadmin</webPath>
+</tomcatProjectProperties>
